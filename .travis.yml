@@ -25,7 +25,7 @@ env:
     - MODULE=oak-lucene PROFILE="-PintegrationTesting" UT="" MONGODB_MODE="--single"
     - MODULE=oak-it PROFILE="-PintegrationTesting" UT="" MONGODB_MODE="--single"
     - MODULE=oak-run PROFILE="-PintegrationTesting" UT="" MONGODB_MODE="--single"
-    - MODULE=oak-upgrade PROFILE="-PintegrationTesting" UT="" MONGODB_MODE="--single"
+#     - MODULE=oak-upgrade PROFILE="-PintegrationTesting" UT="" MONGODB_MODE="--single"
     - MODULE=oak-pojosr PROFILE="-PintegrationTesting" UT="" MONGODB_MODE="--single"
     - MODULE=oak-it-osgi PROFILE="-PintegrationTesting" UT="" MONGODB_MODE="--single"
 install:
