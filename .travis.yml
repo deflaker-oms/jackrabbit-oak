@@ -16,7 +16,7 @@
 sudo: false
 env:
   global:
-    - MONGODB=3.6.4 FIREBASE_KEY=AIzaSyDU7I6pnN322BvRNN24jRX52owAvuHH1K4
+    - MONGODB=3.6.4 FIREBASE_KEY=AIzaSyDU7I6pnN322BvRNN24jRX52owAvuHH1K4 MAVEN_OPTS="-Xmx3000m"
   matrix:
     - MODULE=oak-jcr PROFILE="-PintegrationTesting" UT="-Dsurefire.skip.ut=true" MONGODB_MODE="--single"
     - MODULE=oak-jcr PROFILE="" UT="" MONGODB_MODE="--single"
